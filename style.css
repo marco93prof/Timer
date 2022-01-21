@@ -1,0 +1,82 @@
+@font-face {
+	font-family: highman;
+	src: url("./Highman.ttf");
+}
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+body {
+	font-size: 100%;
+	list-style-type: none;
+}
+
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Safari */
+		-khtml-user-select: none; /* Konqueror HTML */
+		  -moz-user-select: none; /* Firefox */
+			-ms-user-select: none; /* Internet Explorer/Edge */
+				 user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+
+.menu {
+	width: 600px;
+	margin: 50px auto;
+}
+
+.clock {
+	/* position: relative; */
+	width: 590px;
+	height: 356px;
+	background-image: url("./clock.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.timer {
+	text-align: center;
+	line-height: 356px;
+	font-size: 110px;
+	font-family: monospace;
+	color: #333;
+	text-shadow: 4px 4px 2px #111;
+}
+
+.button {
+	display: inline-block;
+	width: 101px;
+	height: 56px;
+	line-height: 56px;
+	font-size: 26px;
+	text-align: center;
+	margin: 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	color: white;
+	text-shadow: 2px 2px 1px #000;
+}
+
+.playButton,
+.pauseButton {
+	background-color: #DB2E36;
+	box-shadow: 0 0 5px #DB2E36;
+}
+
+.stopButton {
+	background-color: #40c9a5;
+	box-shadow: 0 0 10px #40c9a5;
+}
+
+
+.buttons {
+	display: block;
+	text-align: center;
+}
